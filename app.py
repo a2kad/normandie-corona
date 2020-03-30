@@ -26,7 +26,7 @@ fig = go.Figure(data=[go.Bar(x=all_date, y=all_confirme, text = 'Cas confirmés'
 # Pie-Graphic
 labels = ['Hommes','Femmes']
 values = [man, woman]
-fig2 = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.2)], layout = {'title': 'Hommes/Femmes'})
+fig2 = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.2)], layout = {'title': 'Hommes/Femmes décès à l\'hôpital'})
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -87,7 +87,7 @@ app.layout = html.Div([
         ], className='graph')
     ]),
     html.Footer([
-        html.Div(["Copyright 2020 Reshetnikov Ruslan"
+        html.Div(["Copyright © 2020 Reshetnikov Ruslan"
         ], className='footer')
 
     ])

@@ -66,3 +66,20 @@ body{
   background-color: #648ca6;
   color: #fff;
 }
+@media only screen and (max-width: 1000px) {
+
+.graph-one #example-graph, .graph-two #example-graph-2  {
+  width: 98.5%;
+  margin: 5px;
+  display: block;
+  }
+.cards{
+  display: block;
+}
+.block{
+  width: 98.5%;
+  padding: 20px;
+  margin:5px;
+  background-color: white;
+}
+}
